@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Langara PRM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+       
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/jquery.mobile.js"></script>
+    
+    <!--
+    <link rel="stylesheet" href="css/normalize.css">
+    -->
+    <link rel="stylesheet" href="css/jquery.mobile.css">
+    <link rel="stylesheet" href="css/main.css">
+        
+
+<script>
+$(document).ready(function(){
+    
+    // alert('fuck');
+
+});
+</script>
+
+
+</head>
+<body>
+
+<section data-role="page" id="home">
+
+        <header data-role="header" data-theme="b" id="header">
+            <h1>Langara PRM</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-home">Home</a>
+            <a href="#info" class="ui-btn ui-btn-right ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+        </header>
+
+        <article data-role="content" id="content-home">  
+
+
+ <!--  
+    <nav data-role="controlgroup">
+        <a href="#blog" class="ui-btn ui-corner-all ui-shadow ui-btn-b
+            ui-icon-edit ui-btn-icon-left">Gibson</a>
+        <a href="#fender" class="ui-btn ui-corner-all ui-shadow  ui-btn-b
+            ui-icon-user ui-btn-icon-left">Fender</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadown  ui-btn-b
+            ui-icon-audio ui-btn-icon-left">Rickenbacker</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow  ui-btn-b
+            ui-icon-mail ui-btn-icon-left">Contact</a>
+    </nav>
+ -->  
+        </article>  <!-- END CONTENT -->
+
+        <footer data-role="footer" id="footer" data-position="fixed">
+     
+  
+         <nav data-role="navbar">
+             <ul>
+                 <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">2013</a></li>
+                 <li><a href="#about" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+                 <li><a href="#masthead" class="ui-btn ui-icon-user ui-btn-icon-top">Masthead</a></li>
+                 <li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+             </ul>
+        </nav>
+      
+        </footer>
+
+</section> <!-- CLOSE HOME-->
+
+
+
+<!-- PAGE: BLOG (story listings) -->
+    <section id="blog" data-role="page" data-title="">
+
+        
+        <header data-role="header" data-theme="b" id="header">
+            <h1>Langara PRM</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-home">Home</a>
+            <a href="#info" class="ui-btn ui-btn-right ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+        
+        </header>
+
+        <div data-role="content" id="postlist">
+            <!-- to be filled dynamically by js/main.js" --> 
+        </div>    <!-- CONTENT -->
+
+        <footer data-role="footer" id="footer" data-position="fixed">
+     
+  
+         <nav data-role="navbar">
+             <ul>
+                 <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">2013</a></li>
+                 <li><a href="#about" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+                 <li><a href="#masthead" class="ui-btn ui-icon-user ui-btn-icon-top">Masthead</a></li>
+                 <li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+             </ul>
+        </nav>
+      
+        </footer>
+
+
+    </section>  <!-- BLOG PAGE END -->
+
+<!-- PAGE: BLOGPOSTS (stories) -->
+    <section data-role="page" id="blogpost">
+
+            <header data-role="header" data-theme="b" id="header">
+            <h1>Langara PRM</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-home">Home</a>
+            <a href="#info" class="ui-btn ui-btn-right ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+        
+        </header>
+        
+        <div data-role="content">
+            <div id="mypost">
+                <!-- to be filled dynamically, by showPost function in js/main.js -->
+            </div>
+        </div>
+
+        <footer data-role="footer" id="footer" data-position="fixed">
+     
+  
+         <nav data-role="navbar">
+             <ul>
+                 <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">2013</a></li>
+                 <li><a href="#about" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+                 <li><a href="#masthead" class="ui-btn ui-icon-user ui-btn-icon-top">Masthead</a></li>
+                 <li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+             </ul>
+        </nav>
+      
+        </footer>
+
+
+    </section>  <!-- BLOGPOST end-->
+
+
+<!-- PAGE: FENDERS -->
+
+<section data-role="page" id="masthead">
+
+        <header data-role="header" data-theme="b" id="header">
+            <h1>Langara PRM</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-home">Home</a>
+            <a href="#info" class="ui-btn ui-btn-right ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+        </header>
+
+    <div data-role="content">
+         <h1>Pacific Rim Magazine &#8211; Print Edition</h1>
+<p>Publisher: Darren Bernaerdt<br />
+Editorial Director: Leanne Johnson<br />
+Managing Art Director: Giselle Lemay<br />
+Managing Production Director: Terry van Roon<br />
+Advertising Sales Manager: Don Hill</p>
+<h2>Editorial</h2>
+<p>Managing Editor: Jimmy Leitch<br />
+Features Editors: Janis Letchumanan, Anthony Nerada<br />
+Food Editor: Courtney Christensen<br />
+Travel Editor: Tim Focht<br />
+Environment Editor: Rea Gosine<br />
+Film &amp; Music Editor: Lynda Tierney<br />
+Staff Writer: Mandy Cruse</p>
+<h2>Art</h2>
+<p>Art Director: Jayme Brown<br />
+Associate Art Director: Tom Bath<br />
+Layout Artists/Production Artists: Olivia Dalton, Rae Fernandez, Marcella Reay<br />
+Photo Editor: Vanessa Hunter<br />
+Typography Specialist: Emily Holtorf-Ma</p>
+<h2>Production</h2>
+<p>Production Director: Carolyn Lee<br />
+Associate Production Directors: Mona Struthers, Erin Wilkman<br />
+Production Artists: Melissa Cho, Alyx Ho, Peggy Yet</p>
+<h2>Advertising</h2>
+<p>Ad Traffic Manager: Amy Ross<br />
+Associate Ad Traffic Manager: Vicky Hsu<br />
+Ad Designers/Production Artists: Bonnie Edwards, Alyx Ho, Tanya Paterson</p>
+<h2>Promotions</h2>
+<p>Promotions Director: Joanna Finlay<br />
+Associate Promotions Director: Paul Kasasian<br />
+Social Media Director: Janet Filipenko</p>
+<h2>Cover</h2>
+<p>Model: Marilou Tuzon<br />
+Photographer: Dion Farrell<br />
+Makeup provided by Jinesa McCaw, Owner of Pamper me Pretty<br />
+Designers: Tom Bath, Jayme Brown</p>
+<h2>Contributors</h2>
+<h3>Photographers:</h3>
+<p>Joey Crowle, Josh Esterhuizen, Dion Farrell, Francis Garrucho, Eric Hay, Agnes Laurel, Keara Mager, James McCron, Ryan Molag, Shawna Wajzer, Sarah Whitlam, Diana Wong, Fari Yavuz, Marjan Yazdi Photo Contributors: Ashli Akins, Allie Dickhout, Gulf Islands Driftwood, Andre Dupuis, Peter Halasz, Jack Hallam, Bill Irwin, Katie Larone, Tina Lin, Shari Macdonald, Oregon Department of Fish and Wildlife, Papier K, Stephen Sumner, trav+ash, Amanda Waschuk</p>
+<h3>Illustrators:</h3>
+<p>Jayme Brown, Marcella Reay, Lynda Tierney</p>
+<h3>Computer Support:</h3>
+<p>Neil Amsler, Kevin McMillan</p>
+<h3>Advertising Sales:</h3>
+<p>Cat Bergman, Mandeep Bhachu, Martyna Czaplak, Carly Franklin, Ana Gomes, Don Hill, Thomas Laird, Blair Martin, James Murdock, Lily Nguyen, Michael Nguyen, Sujin Ok, Gavinder Randhawa, Sophie Salonga, Isis Schmidt Rante, Andrew Snider-Brousse, Wendy Thai, Julia Wagner<br />
+Environmental Researchers: Christy Borthistle, Krissy Bublitz, Alison Campbell, Peter Chambers, Gloria Chang, Victoria Cheung, Mara Dickie, Patrick Earley, Laura Ellan, Alison Gilchrist, Sasha Grimson, Sally Hao, Robin Jones, Youngkyu Joo, Taya Lawton, Agnes Lee, Michelle Lee, Elizabeth Livingstone, Maite Mayeta Cumba, Susan Millar, Erica Pezim, Susan Pike, Melissa Porsnuk, Katie Sloan, Laura Third, Christine Tutt, Shannon Vondrasek, Claire Wemyss</p>
+<h3>Travel Researchers:</h3>
+<p>Joe Abernethy, Patrick Allain, Wendy Argatoff, Brie Duggan, Tracy Dunlop, Jennifer Evans, Jotika Gopal, Diana Happy, Erica Huntley, Melinda Jansen, Sarika Kelm, Sandeep Khaira, Shannon Leblanc, John Margetts, Marta Marynczak, Melody McGowan, Megan Nelson, Cortney Newton, Jennifer Orme. Caitlin Rassenti, Daniela Spada, Danice Szabo, Helen Tsoi, Taren Urquhart, Wendy Wright, Huihui Yin, Rena Zhang</p>
+<h3>Special Thanks:</h3>
+<p>Tyee Bridge, Ann Calla, the Kennedy family, Josué Menjivar, Elizabeth Rains, Eric Stewart</p>
+<h3>Circulation:</h3>
+<p>Rea Gosine (manager), Mona Struthers</p>
+<h3>Board of Directors:</h3>
+<p>Roy Daykin (chair), Darren Bernaerdt, Don Hill, Giselle Lemay, Julie Longo, Tomo Tanaka, Terry van Roon</p>
+
+
+
+<h1>Pacific Rim Magazine &#8211; Online Edition</h1>
+<p>Managing Web Director: Kevin McMillan</p>
+<h2>Editorial</h2>
+<p>Managing Web Editor: Rea Gosine<br />
+Web Copy Editor: Courtney Christensen, Joanna Finlay, Vanessa Hunter, Tanya Paterson, Lynda Tierney</p>
+<h2>Web Development</h2>
+<p>Web Developer Manager: Emily Holtorf-Ma<br />
+Web Developers: Erin Wilkman, Tom Bath</p>
+<h2>Web Design</h2>
+<p>Web Design Manager: Janis Letchumanan<br />
+Web Designers: Mandy Cruse, Carolyn Lee, Mona Struthers</p>
+<h2>Graphics Department</h2>
+<p>Graphics Manager: Amy Ross<br />
+Graphics Specialist: Bonnie Edwards, Alyx Ho, Vicky Hsu, Marcella Reay</p>
+<h2>Code Purity/Quality Assurance</h2>
+<p>Quality Assurance Manager: Jayme Brown<br />
+Quality Assurance Specialist: Melissa Cho, Olivia Dalton, Peggy Yet, Emily Holtorf-Ma (Liaison), Janis Letchumanan (Liaison)</p>
+<h2>Video/Promotions</h2>
+<p>Promotions/Video Director: Janet Filipenko<br />
+Promotions/Video Assistant: Anthony Nerada</p>
+<h2>Print Styles</h2>
+<p>Print Style Sheet Manager: Rae Fernandez<br />
+Print Style Sheet Developer: Joanna Finlay</p>
+   
+<h5>Published by Langara College, 100 West 49th Avenue <br>
+    Vancouver, BC </br>
+    V5Y 2Z6<br />
+Tel: (604) 323-5432<br />
+Fax: (604) 323-5393</h5>
+    </div>   
+
+
+
+        <footer data-role="footer" id="footer" data-position="fixed">
+     
+  
+         <nav data-role="navbar">
+             <ul>
+                 <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">2013</a></li>
+                 <li><a href="#about" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+                 <li><a href="#masthead" class="ui-btn ui-icon-user ui-btn-icon-top">Masthead</a></li>
+                 <li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+             </ul>
+        </nav>
+      
+        </footer>
+
+
+</section>
+
+
+
+
+<section data-role="page" id="about">
+
+        <header data-role="header" data-theme="b" id="header">
+            <h1>Langara PRM</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-home">Home</a>
+            <a href="#info" class="ui-btn ui-btn-right ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+        </header>
+
+    <div data-role="content">
+
+    <p>Pacific Rim Magazine is written, designed and produced entirely by the Publishing students at Langara College. It focuses on the Asia-Pacific region from a Canadian perspective, with article topics ranging from technology, sports and business, to arts and culture. Pacific Rim Magazine is distributed each May through Vancouver issues of The Globe and Mail.</p>
+
+<h1>Messages</h1>
+<h3>From The President</h3>
+<p>It has been a remarkable year at <a title="Langara College" href="http://langara.bc.ca" target="_blank">Langara</a> and there is so much to celebrate. Events that take place year after year have continued to flourish while new initiatives have gained traction. Thought-provoking talks like our Public Art Speaker Series, Philosophers’ Jams, and Community Lecture Series featured intriguing speakers and relevant topics. Our Photo-Imaging students put on a tremendously popular exhibit in partnership with the Vancouver Archives. No surprise, Studio 58 again received rave reviews for their brilliant theatrical productions.</p>
+<p>One of the most remarkable events of the year was Langara’s Art+Design Auction that brought 250 attendees to campus for a festive evening. Students, faculty, and staff contributed artwork to the event, which helped raise over $10,000 for student scholarships.</p>
+<p>As a leader in lifelong learning, it is important to engage with the commu­nity beyond our walls. This past year, we hosted the Vancouver District Science Fair, sponsored three CreativeMornings Vancouver events, and hosted the annual World Community Film Festival. We are also in the second year of our partnership with InTransit BC, a public art program that works with emerging artists to exhibit pieces along the Canada Line. Langara students have a prominent piece on display at the Langara-49th Avenue Station until the end of July 2013. These initiatives, among many others, encourage meaningful dialogue and keep us connected to those who share our passion for learning.</p>
+<p>Our spectrum of creative expression includes this issue of <em>Pacific Rim Magazine</em> that you hold before you. I would like to extend my congratulations to all the students and faculty involved in the production of this year’s 25th anniversary issue. These photos and stories have been weaved together masterfully to tell a compelling narrative about the community we live in. We hope you enjoy the read.</p>
+<p><em>Roy Daykin<br />
+President, Langara College</em></p>
+<h3>From The Publisher</h3>
+<p>This issue of <em>Pacific Rim Magazine</em> is, as always, a special production. What other magazine reinvents itself every year with a completely new roster of talent? Langara College’s Class of 2013 Publishing students have taken on the challenge of creating a new edition. This is also done with student contributions from three other programs at Langara and the assistance of the Publishing program’s <em>Pacific Rim Magazine</em> instructors. Please take a moment to review the masthead and acknowledge the talented people who make this magazine a reality.</p>
+<p>The 2013 issue is a milestone because it marks 25 years since <em>Pacific Rim Magazine</em> first hit the streets of Vancouver. We are proud to continue the tradition of this annual magazine. We also welcome our ongoing presence on the web, which is made possible via LangaraPRM.com. Check out page 60 and 61 for a commem­oration of the evolution of this magazine.</p>
+<p>This year the scope of our stories has broadened beyond our previous Asia-Pacific theme with the focus shifting to a range of Pacific Rim countries. Jayme Brown shares a tale of two Australian cities in “Different Folks Sharing Spokes?” which we can learn from as Vancouver institutes a bike-share program that needs to co-exist with a mandatory helmet law. Continuing with the theme of leading a greener life, Mona Struthers examines the facts surrounding urban farming in “Soil and the City.” And we cannot help but see how intertwined we are with our Pacific Rim neighbours after reading Janis Letchumanan’s story about Filipino nannies in “The Cost of Caring.”</p>
+<p>It is rewarding to see the fine work of many individuals brought together in this publication. For some of the Publishing students this marks the continuation of a path that started prior to joining the program. For others it represents a foundation they are building for a new career. I hope you enjoy these insightful, entertaining, and educational stories.</p>
+<p><em>Darren Bernaerdt<br />
+Publisher, Pacific Rim Magazine</em></p>
+<h3>From The Editors</h3>
+<p>Anniversaries help us remember signif­icant moments in time. They remind us to pay tribute to our beginnings, appreciate where we are now, and motivate us to surge ahead. As we commemorate 25 years of <em>Pacific Rim Magazine</em>, we continue our commitment to explore the people and issues connecting Vancouver to other countries in the Pacific Rim, while renewing our desire to create meaningful dialogue that both reflects and inspires the way we live.</p>
+<p>Canadians have made great strides toward social justice, and there will always be a need for a place where voices can be heard. These voices belong to us all. They belong to a nanny from the Philippines who questions why she had to leave her family behind to make a better future for her children. They belong to an elderly man who, after years of advocating for gay rights, now speaks out for the aging members of his community. They include the voices of citizens encouraging a more environmen­tally conscious city. By providing a place for these voices to be heard, we hope the stories within these pages help to instill both optimism and awareness.</p>
+<p>On this, the 25th anniversary of <em>Pacific Rim Magazine</em>, we want to spark conver­sations that acknowledge the economic, cultural, and environmental concerns facing the Pacific Rim. We are proud to present you with this year’s issue, but the real impact of this magazine lies with its potential to enact positive change for the next 25 years.</p>
+<p><em>Editorial Department</em></p>
+
+<p class="2012cover"><a href="http://langaraprm.com/wp-content/uploads/2013/07/2013cover.jpg"><img src="http://langaraprm.com/wp-content/uploads/2013/07/2013cover.jpg" alt="2013cover" width="530" height="708" class="alignnone size-full wp-image-9290" /></a></p>
+<h3><a href="http://issuu.com/langaracollege/docs/prm-2013?e=1410919/2659015">View the print layout online at issuu</a></h3>
+<p>Pacific Rim Magazine is proud to be a member of the Magazine Association of BC.</p>
+<p><a href="http://www.magsbc.com"><img class="alignnone size-full wp-image-1183" title="MagsBC" alt="Magazines BC" src="http://langaraprm.com/wp-content/uploads/2012/08/MagsBC.jpeg" width="150" height="50" /></a></p>
+
+</div>  <!-- end CONTENT -->
+
+        <footer data-role="footer" id="footer" data-position="fixed">
+     
+  
+         <nav data-role="navbar">
+             <ul>
+                 <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">2013</a></li>
+                 <li><a href="#about" class="ui-btn ui-icon-info ui-btn-icon-top">About</a></li>
+                 <li><a href="#masthead" class="ui-btn ui-icon-user ui-btn-icon-top">Masthead</a></li>
+                 <li><a href="#contact" class="ui-btn ui-icon-mail ui-btn-icon-top">Contact</a></li>
+             </ul>
+        </nav>
+      
+        </footer>
+
+
+</section>
+
+
+
+
+<script src="js/main.js"></script>
+<script src="http://langaraprm.com/api/get_posts/?count=35&tag=2013&orderby=rand&callback=listPosts"></script>
+
+    </body>
+</html>
